@@ -42,7 +42,6 @@ class AuthorizationViewController: UIViewController {
         }
         
         if (emailIsValid && passwordIsValid) {
-            print("Success")
             let headers: HTTPHeaders = [
                 "X-Yandex-API-Key": "13d3ab6e-80d5-49dd-bc3e-dbcff253b5b4",
                 "Accept": "application/json"
